@@ -7,14 +7,19 @@ f.current_page=0;
 *select
 
 [chara_mod  name="yuri"  time="0"  storage="chara/1/yuri_shy.png"  ]
-[anim name="yuri" left="640" time="1000"]
+[tb_start_tyrano_code]
+[anim name="yuri" left=640 time=1000]
+[_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
 [iscript]
 f.page_str = "page"+f.current_page;
 [endscript]
 
-[jump  target="&f.page_str"  storage=""  ]
+[tb_start_tyrano_code]
+[jump target=&f.page_str]
+[_tb_end_tyrano_code]
+
 *page0
 
 [glink  text="Способы&nbsp;отображения&nbsp;выбора"  size="20"  width="500"  x="30"  y="40"  color="blue"  target="exe_game"  exp="tf.selected='01_bunki'"  ]
@@ -40,7 +45,7 @@ f.page_str = "page"+f.current_page;
 [iscript]
 f.current_page++;
 if(f.current_page == 2){
-f.current_page =0;
+  f.current_page =0;
 }
 [endscript]
 
@@ -49,7 +54,7 @@ f.current_page =0;
 
 [iscript]
 if(f.current_page > 0){
-f.current_page--;
+  f.current_page--;
 }
 [endscript]
 
@@ -64,5 +69,8 @@ tf.target_storage = tf.selected + "_start.ks";
 [chara_hide  name="yuri"  ]
 [showmenubutton]
 
-[jump  storage="&tf.target_storage"  target=""  ]
+[tb_start_tyrano_code]
+[jump storage=&tf.target_storage]
+[_tb_end_tyrano_code]
+
 [s  ]

@@ -54,16 +54,24 @@
 [glink  name="glink2"  text="Вариант2"  size="20"  width="500"  x="1000"  y="200"  exp="tf.selected='Вариант2'"  target="glink_select2"  color="blue"  ]
 [glink  name="glink3"  text="Вариант3"  size="20"  width="500"  x="-1000"  y="300"  exp="tf.selected='Вариант3'"  target="glink_select2"  color="pink"  ]
 [glink  name="glink4"  text="Вариант4"  size="20"  width="500"  x="1000"  y="400"  exp="tf.selected='Вариант4'"  target="glink_select2"  color="orange"  ]
-[anim name="glink1" left=150 time=500]
+[tb_start_tyrano_code]
+@anim name="glink1" left=150 time=500
+[_tb_end_tyrano_code]
 
 [wait  time="100"  ]
-[anim name="glink2" left=150 time=500]
+[tb_start_tyrano_code]
+@anim name="glink2" left=150 time=500
+[_tb_end_tyrano_code]
 
 [wait  time="100"  ]
-[anim name="glink3" left=150 time=500]
+[tb_start_tyrano_code]
+@anim name="glink3" left=150 time=500
+[_tb_end_tyrano_code]
 
 [wait  time="100"  ]
-[anim name="glink4" left=150 time=500]
+[tb_start_tyrano_code]
+@anim name="glink4" left=150 time=500
+[_tb_end_tyrano_code]
 
 [s  ]
 *glink_select2
@@ -88,8 +96,6 @@
 Хм... вот как.[p]
 Используя изображения в качестве кнопок можно многое сделать.[p]
 Можно менять изображение при наведении курсора (и проигрывать звук)[p]
-
-
 Или добавить эффект при нажатии на кнопку.[p]
 
 
@@ -103,5 +109,4 @@ http://tyranobuilder.com/tyranoscript-tags-reference/[p]
 Файл этого сценария находится в папке scenario/examples/01_bunki ![p]
 
 
-[call storage="select.ks" target="select" ]
-
+[jump  storage="select.ks"  target="*select"  ]
