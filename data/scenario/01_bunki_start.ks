@@ -106,7 +106,7 @@ http://tyranobuilder.com/tyranoscript-tags-reference/[p]
 [_tb_end_tyrano_code]
 
 Вы можете скачать исходный код этой игры, так что используйте его в качестве примера.[p]
-Файл этого сценария находится в папке scenario/examples/01_bunki ![p]
+Файл этого сценария находится по адресу scenario/01_bunki... ![p]
 
 
 [jump  storage="select.ks"  target="*select"  ]
