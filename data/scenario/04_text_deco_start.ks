@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_04_text_deco_start.ks]
 
 [tb_show_message_window  ]
 [chara_mod  name="yuri"  time="600"  storage="chara/1/yuri_normal.png"  ]
@@ -16,11 +16,11 @@
 [tb_start_tyrano_code]
 [font color="0xFAEBD7"]Или
 [resetfont] свободно
-[font color="pink"] изменять 
-[resetfont] цвет 
-[font color="green"] текста 
-[resetfont] вот 
-[font color="0xAFEEEE"] таким 
+[font color="pink"] изменять
+[resetfont] цвет
+[font color="green"] текста
+[resetfont] вот
+[font color="0xAFEEEE"] таким
 [resetfont] образом[p]
 [_tb_end_tyrano_code]
 
@@ -54,7 +54,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-В тексте можно поместит файл изображения. [graph storage="present.png"][p]
+В тексте можно поместить файл изображения. [graph storage="present.png"][p]
 [_tb_end_tyrano_code]
 
 Так, эффективно модифицируя текст можно заметно улучшить подачу истории.[p]
