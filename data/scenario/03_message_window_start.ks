@@ -72,8 +72,8 @@
 [position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60"]
 [_tb_end_tyrano_code]
 
-Вы можете скачать исходный код этой игры, так что используйте его в качестве примера.[p][p]
-Файл этого сценария находится в папке scenario/03_message_window... ![p][p]
+Вы можете скачать исходный код этой игры, так что используйте его в качестве примера.[p]
+Файл этого сценария находится в папке scenario/03_message_window... ![p]
 
 
 [jump  storage="select.ks"  target="*select"  ]
